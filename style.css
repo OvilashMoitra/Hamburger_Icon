@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}
+.menu{
+    margin-right: 40px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+    margin-left: 15px;
+}
+.hamicon{
+    display: none;
+    
+}
+@media  (max-width:768px) {
+    .hamicon{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+    }
+}
